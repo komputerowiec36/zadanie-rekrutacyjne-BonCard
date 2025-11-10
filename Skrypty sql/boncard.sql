@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: gamer.pl
--- Czas generowania: 10 Lis 2025, 11:16
+-- Czas generowania: 10 Lis 2025, 13:54
 -- Wersja serwera: 10.4.25-MariaDB
 -- Wersja PHP: 8.1.10
 
@@ -42,7 +42,7 @@ CREATE TABLE `actives` (
 --
 
 INSERT INTO `actives` (`id`, `ip`, `login`, `date`, `time`) VALUES
-(5, '127.0.0.1', 'kaufland', '2025-11-10', '10:53:00');
+(12, '127.0.0.1', 'kaufland', '2025-11-10', '12:18:00');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,10 @@ CREATE TABLE `cards` (
 --
 
 INSERT INTO `cards` (`id`, `name`, `number`, `pin`, `activate`, `valid`, `saldo`, `login`) VALUES
-(1, 'karta podarunkowa', '23899422893485734564', 3453, '2025-11-10 10:33:24', '2026-11-08', '127.00', 'kaufland');
+(1, 'karta podarunkowa', '23899422893485734564', 3453, '2025-11-10 10:33:24', '2026-11-08', '127.00', 'kaufland'),
+(2, 'karta prezentowa', '38497620834217459872', 3455, '2025-11-19 10:44:00', '2026-01-22', '123.00', 'kaufland'),
+(3, 'karta podarunkowa', '93845702749503821485', 3577, '2025-11-12 13:48:00', '2026-11-06', '345.00', 'biedronka'),
+(4, 'karta upominkowa', '39845027457823109458', 4657, '2025-11-27 09:51:11', '2026-01-30', '345.00', 'biedronka');
 
 -- --------------------------------------------------------
 
@@ -85,7 +88,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `login`, `password`) VALUES
-(1, 'kaufland', 'sw98f223v3932');
+(1, 'kaufland', 'sw98f223v3932'),
+(2, 'bieronka', '12kdfieffo345');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -117,13 +121,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT dla tabeli `actives`
 --
 ALTER TABLE `actives`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT dla tabeli `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

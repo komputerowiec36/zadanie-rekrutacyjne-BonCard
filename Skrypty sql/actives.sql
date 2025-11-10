@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: gamer.pl
--- Czas generowania: 10 Lis 2025, 11:30
+-- Czas generowania: 10 Lis 2025, 13:54
 -- Wersja serwera: 10.4.25-MariaDB
 -- Wersja PHP: 8.1.10
 
@@ -40,7 +40,7 @@ CREATE TABLE `actives` (
 --
 
 INSERT INTO `actives` (`id`, `ip`, `login`, `date`, `time`) VALUES
-(5, '127.0.0.1', 'kaufland', '2025-11-10', '10:53:00');
+(12, '127.0.0.1', 'kaufland', '2025-11-10', '12:18:00');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -60,7 +60,7 @@ ALTER TABLE `actives`
 -- AUTO_INCREMENT dla tabeli `actives`
 --
 ALTER TABLE `actives`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

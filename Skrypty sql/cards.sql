@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: gamer.pl
--- Czas generowania: 10 Lis 2025, 11:30
+-- Czas generowania: 10 Lis 2025, 13:54
 -- Wersja serwera: 10.4.25-MariaDB
 -- Wersja PHP: 8.1.10
 
@@ -43,7 +43,10 @@ CREATE TABLE `cards` (
 --
 
 INSERT INTO `cards` (`id`, `name`, `number`, `pin`, `activate`, `valid`, `saldo`, `login`) VALUES
-(1, 'karta podarunkowa', '23899422893485734564', 3453, '2025-11-10 10:33:24', '2026-11-08', '127.00', 'kaufland');
+(1, 'karta podarunkowa', '23899422893485734564', 3453, '2025-11-10 10:33:24', '2026-11-08', '127.00', 'kaufland'),
+(2, 'karta prezentowa', '38497620834217459872', 3455, '2025-11-19 10:44:00', '2026-01-22', '123.00', 'kaufland'),
+(3, 'karta podarunkowa', '93845702749503821485', 3577, '2025-11-12 13:48:00', '2026-11-06', '345.00', 'biedronka'),
+(4, 'karta upominkowa', '39845027457823109458', 4657, '2025-11-27 09:51:11', '2026-01-30', '345.00', 'biedronka');
 
 --
 -- Indeksy dla zrzutów tabel

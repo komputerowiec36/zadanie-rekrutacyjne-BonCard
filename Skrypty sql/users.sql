@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: gamer.pl
--- Czas generowania: 10 Lis 2025, 11:30
+-- Czas generowania: 10 Lis 2025, 13:55
 -- Wersja serwera: 10.4.25-MariaDB
 -- Wersja PHP: 8.1.10
 
@@ -38,7 +38,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `login`, `password`) VALUES
-(1, 'kaufland', 'sw98f223v3932');
+(1, 'kaufland', 'sw98f223v3932'),
+(2, 'bieronka', '12kdfieffo345');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -58,7 +59,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT dla tabeli `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
