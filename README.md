@@ -1,3 +1,3 @@
 Strona internetowa do przeglądania i edycji kartjest <br>
 Skrypty SQL <br>
-jest jeden skrypt z całą baządanych i 3 skrypty każdy z jedej tabelki wrazi gyby nie działał skryp z cała bazą danych
+Jest jeden skrypt z całą baządanych i 3 skrypty każdy z jedej tabelki wrazi gyby nie działał skryp z cała bazą danych
